@@ -45,7 +45,7 @@ namespace BaCSharp
         [BaCSharpType(BacnetApplicationTags.BACNET_APPLICATION_TAG_CHARACTER_STRING)]
         public virtual String PROP_VENDOR_NAME
         {
-            get { return "JCI, SW Gateway 2020"; }
+            get { return "__Company, __Product"; }
         }
 
         [BaCSharpType(BacnetApplicationTags.BACNET_APPLICATION_TAG_CHARACTER_STRING)]
